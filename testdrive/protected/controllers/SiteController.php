@@ -37,6 +37,11 @@ class SiteController extends Controller
             array(
                 'pagination'=>array(
                     'pageSize'=>20
+                ),
+                'sort'=>array(
+                    'defaultOrder'=>array(
+                        'id'=>SORT_DESC
+                    )
                 )
             )
         );
